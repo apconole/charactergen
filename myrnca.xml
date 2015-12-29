@@ -1,0 +1,277 @@
+<background>
+  <name type="given" gender="male">Alchfrid</name>
+  <name type="given" gender="male">Aldfrid</name>
+  <name type="given" gender="male">Aldhelm</name>
+  <name type="given">Alduini</name>
+  <name type="given" gender="male">Aldwulf</name>
+  <name type="given" gender="male">Alric</name>
+  <name type="given" gender="male">Andhun</name>
+  <name type="given" gender="female">Anna</name>
+  <name type="given">Bertwald</name>
+  <name type="given" gender="female">Bronwyn</name>
+  <name type="given" gender="male">Cearl</name>
+  <name type="given">Ceolwulf</name>
+  <name type="given" gender="female">Ceolya</name>
+  <name type="given" gender="male">Coenred</name>
+  <name type="given">Coenwalh</name>
+  <name type="given" gender="male">Cuichelm</name>
+  <name type="given" gender="male">Cuthbert</name>
+  <name type="given">Cynefrid</name>
+  <name type="given">Cynegels</name>
+  <name type="given" gender="male">Caidmon</name>
+  <name type="given" gender="male">Cowlin</name>
+  <name type="given">Eadbald</name>
+  <name type="given" gender="male">Eadbert</name>
+  <name type="given">Eadfrid</name>
+  <name type="given" gender="male">Eadric</name>
+  <name type="given" gender="female">Eadwyn</name>
+  <name type="given">Eafa</name>
+  <name type="given">Eanfrid</name>
+  <name type="given">Earconbert</name>
+  <name type="given">Earpwald</name>
+  <name type="given" gender="male">Egbert</name>
+  <name type="given">Egfrid</name>
+  <name type="given">Egric</name>
+  <name type="given">Eni</name>
+  <name type="given">Hengist</name>
+  <name type="given">Hereric</name>
+  <name type="given">Hlothere</name>
+  <name type="given">Horsa</name>
+  <name type="given" gender="male">Hunwald</name>
+  <name type="given" gender="male">Immin</name>
+  <name type="given">Irminric</name>
+  <name type="given" gender="female">Octa</name>
+  <name type="given" gender="male">Oeric</name>
+  <name type="given" gender="female">Offa</name>
+  <name type="given">Osfrid</name>
+  <name type="given" gender="male">Osred</name>
+  <name type="given" gender="male">Osric</name>
+  <name type="given" gender="male">Oswald</name>
+  <name type="given" gender="male">Oswy</name>
+  <name type="given" gender="female">Oswyn</name>
+  <name type="given" gender="male">Peada</name>
+  <name type="given" gender="female">Penda</name>
+  <name type="given" gender="male">Redwald</name>
+  <name type="given" gender="male">Ricbert</name>
+  <name type="given">Rogenhere</name>
+  <name type="given">Sabert</name>
+  <name type="given" gender="female">Sebbi</name>
+  <name type="given">Sigbert</name>
+  <name type="given">Sighard</name>
+  <name type="given">Sighere</name>
+  <name type="given">Swefred</name>
+  <name type="given">Swidhelm</name>
+  <name type="given">Thrydwulf</name>
+  <name type="given" gender="male">Tondbert</name>
+  <name type="given" gender="male">Tondhere</name>
+  <name type="given">Wictred</name>
+  <name type="given">Wilfrid</name>
+  <name type="given">Wini</name>
+  <name type="given" gender="female">Wuffa</name>
+  <name type="given">Wulfhere</name>
+  <name type="given">Wuscfrea</name>
+  <name type="given">Yffi</name>
+  <name type="sur">Wulfgora</name>
+  <name type="sur">Eriksdotter</name>
+  <name type="sur">Donough</name>
+  <name type="sur">Bulgar</name>
+  <name type="sur">Ealdse</name>
+  <name type="sur">Avars</name>
+  <name type="sur">Suebi</name>
+  <name type="sur">Gildas</name>
+  <name type="sur">Badonicus</name>
+  <name type="sur">Wixna</name>
+  <name type="sur">Spalda</name>
+  <name type="sur">Belmga</name>
+  <currency exchange=".72">Dehmhrus</currency>
+  <description>The northern barbaric lands are inhabited by 12 semi-united tribes, with the Gildas, Badonicus, and Wulfgora comprising the strongest three. These ruling clans are usually quite warlike, taking more than their share from the others and constantly plotting to overthrow their rivals.
+The remaining tribes (the Eriksdotters, Donoughs, Bulgars, Ealdse, Avars, Suebi, Wixna, Spalda, and Belmga) keep to their own borders. They usually do not have the might to resist one of the stronger tribes.
+Few, if any, riches hail from the northern lands. The folk who dwell there are distrustful of magic (and fearful even of their priests), and are rarely, if ever, educated beyond some minor runes. What does come from the north are the tough iron hides of northern warriors.
+  </description>
+  <sur name="Wulfgora">
+    <package>
+      <class>Barbarian</class>
+      <background>a particularly barbaric family of brutes, where $pronoun learned to endure through the brutal trials requried by the Wulfgora for $opronoun acceptance as a mighty Wulfgora barbarian.</background>
+      <str floor="9">+6</str>
+      <int floor="5">-6</int>
+      <wis floor="6">-4</wis>
+      <con ceiling="19" floor="9" primary="1">+4</con>
+      <dex ceiling="13">-4</dex>
+      <cha ceiling="8">-2</cha>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>the brutes of the Wulfgora, and is adept at brawling and skirmishing. As a battle tested warrior, $pronoun has learned the fighting craft defending the Myrcna lands from the wildest raiders and northerners.</background>
+      <str ceiling="19" primary="1">+6</str>
+      <int floor="6">-6</int>
+      <wis floor="6">-4</wis>
+      <con floor="11">+2</con>
+      <dex ceiling="13">+2</dex>
+      <cha ceiling="9">-2</cha>
+    </package>
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun Wulfgora heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Eriksdotter">
+    <package>
+      <class>Fighter</class>
+      <background>the once great clan of Eriksdotter. $name grew up on stories of the treachery the Gildas commited to earn their current seat of power, and harbors deep mistrust of anyone from the Gildas or Ealdse clans</background>
+      <str floor="10" primary="1">0</str>
+      <dex floor="9">0</dex>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>an average farming family. $pronoun still remembers the orc and goblin raids of old. $opronoun principal concern usually falls with the wellbeing of the lands, rather than clan politics.</background>
+      <str floor="9" primary="1">0</str>
+    </package>
+  </sur>
+  <sur name="Donough">
+    <package>
+      <class>Fighter</class>
+      <background>a young and ambitious Donough family, where $pronoun survived familial trials by cunning and superior physical tactics. $pronoun is careful with both coin and sword alike.</background>
+      <str floor="9" primary="1">0</str>
+      <int floor="7">0</int>
+      <dex floor="10">1</dex>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>a tanner in a humble Donough family farm. $pronoun prefers the company of other Donoughs and the occasional Suebi.</background>
+      <str floor="9" primary="1">0</str>
+      <int floor="7">0</int>
+      <dex floor="10">1</dex>
+    </package>
+  </sur>
+  <sur name="Bulgar">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Ealdse">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Avars">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Suebi">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Gildas"><!-- theives -->
+    <package>
+      <class>Fighter</class>
+      <background>the Gildas communal orphanage. As a Gildan, $pronoun was raised to show no mercy, and to veiw asking for help as a sign of weakness. $pronoun enjoys a good brawl.</background>
+      <str floor="9" primary="1">0</str>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>one of the more timid Gildan families. $pronoun was tought never to turn $opronoun back to a Wulfgora barbarian.</background>
+      <str floor="9" primary="1">0</str>
+      <int floor="7">-1</int>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>Gildan warriors. While $opronoun days were usually spent sparring, $pronoun did learn an appreciation for the spiced mutton stews made by the Wixna.</background>
+      <str floor="10" primary="1">0</str>
+    </package>
+    <package>
+      <class>Theif</class>
+      <background>the middle of a large Gildan family. Due to $opronoun constant lack of supervision, $pronoun learned the finer points of pickpocketing and as a member of the Gildan clan, was encouraged to take from those who cannot defend.</background>
+      <dex floor="10" primary="1">0</dex>
+    </package>
+    <package>
+      <class>Theif</class>
+      <background>farmers and spent $opronoun youth avoiding apprehension by neighboring farmhands when $pronoun would steal a corn stalk, or ten.</background>
+      <dex floor="10" primary="1">0</dex>
+      <int floor="7">0</int>
+    </package>
+  </sur>
+  <sur name="Badonicus">
+    <package>
+      <class>Fighter</class>
+      <background>coastal fishermen, and trained as a porter. $opronoun desire to see the clans united drove $opronoun to join the coastal fighters.</background>
+      <str floor="9" primary="1">0</str>
+    </package>
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Wixna">
+    <package>
+      <class>Fighter</class>
+      <background>Wixna foragers. Since the Wixna spend their time as a more nomadic clan, $pronoun never truly learned proper fighting technique, but makes up for it with sheer tenacity.</background>
+      <str floor="9" ceiling="14" primary="1">0</str>
+      <wis floor="9">0</wis>
+    </package>
+    <package>
+      <class>Fighter</class>
+      <background>members of the Wixna elder council. When $pronoun realized that $pronoun didn't have the stomach for politics, $pronoun trained to be a proper hunter and Wixna warrior.</background>
+      <str floor="9" primary="1">0</str>
+      <dex floor="9">0</dex>
+    </package>
+    <package>
+      <class>Mage</class>
+      <background>Wixna tanners. However, when $pronoun was a young forest explorer, $pronoun found an old tome with writing in it. $pronoun spent years until finally the secrets of the arcane started to coalesce in $opronoun mind. $name keeps $opronoun mastery of the arcane a secret for fear of the Wixna council, who fear and abhor magic.</background>
+      <int floor="9" primary="1">2</int>
+      <wis floor="9">1</wis>
+      <str ceiling="11">0</str>
+      <con ceiling="11">0</con>
+    </package>
+  </sur>
+  <sur name="Spalda">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  <sur name="Belmga">
+    <package>
+      <class>Cleric</class>
+      <background>the priests that tend to the entire land of Myrcna. As a studied and trusted advisor to the people, $pronoun is tasked with the spiritual enlightenment and placation of the people. $pronoun has been known to cast aside $opronoun heritage rather than play clan favorites.</background>
+      <str floor="6">0</str>
+      <int floor="7">-1</int>
+      <wis floor="9" primary="1">+1</wis>
+      <cha floor="8">-2</cha>
+    </package>
+  </sur>
+  
+</background>
